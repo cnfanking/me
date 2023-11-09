@@ -1,3 +1,5 @@
-# NAME: YouTube
+# NAME: MY
 DOMAIN-SUFFIX,store.steampowered.com
 DOMAIN-SUFFIX,bitcomet.com
+DOMAIN-SUFFIX,*.googlevideo.com
+DOMAIN-SUFFIX,*.doubleclick.net
