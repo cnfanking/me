@@ -300,10 +300,6 @@ https://live3.wuhunews.cn/channel2/sd/live.m3u8
 https://live3.wuhunews.cn/channel3/playlist.m3u8
 #EXTINF:-1 group-title="地方台",芜湖公共
 https://live3.wuhunews.cn/channel3/sd/live.m3u8
-#EXTINF:-1 group-title="地方台",芜湖教育
-https://live3.wuhunews.cn/channel4/playlist.m3u8
-#EXTINF:-1 group-title="地方台",芜湖教育
-https://live3.wuhunews.cn/channel4/sd/live.m3u8
 #EXTINF:-1 group-title="地方台",芜湖新闻
 https://live3.wuhunews.cn/news/sd/live.m3u8
 #EXTINF:-1 group-title="地方台",芜湖新闻
@@ -312,36 +308,7 @@ https://live3.wuhunews.cn/news/playlist.m3u8
 https://live3.wuhunews.cn/fc_news/playlist.m3u8
 #EXTINF:-1 group-title="地方台",繁昌娱乐
 https://live3.wuhunews.cn/fc_channel_2/playlist.m3u8
-#EXTINF:-1 group-title="轮播",【特辑电影】
-https://www.goodiptv.club/douyu/3637778
-#EXTINF:-1 group-title="轮播",60帧 蓝光原画
-https://www.goodiptv.club/douyu/747764
-#EXTINF:-1 group-title="轮播",开心麻花
-https://www.goodiptv.club/douyu/10153463
-#EXTINF:-1 group-title="轮播",丧尸 鬼片 恐怖 惊悚 电影
-https://www.goodiptv.club/douyu/96577
-#EXTINF:-1 group-title="轮播",恐怖 丧尸 鬼片 灾难科幻
-https://www.goodiptv.club/douyu/263824
-#EXTINF:-1 group-title="轮播",贝爷影厅】经典 科幻 动作 灾难 巨兽
-https://www.goodiptv.club/douyu/252802
-#EXTINF:-1 group-title="轮播",MAX厅】科幻 动作 经典 喜剧
-https://www.goodiptv.club/douyu/4332
-#EXTINF:-1 group-title="轮播",电影
-https://www.goodiptv.club/douyu/1377142
-#EXTINF:-1 group-title="轮播",✨电影 欧美 科幻 经典✨
-https://www.goodiptv.club/douyu/20415
-#EXTINF:-1 group-title="轮播",7305938
-https://www.goodiptv.club/douyu/7305938
-#EXTINF:-1 group-title="轮播",贝爷影厅】欧美 日韩 国产 2号厅
-https://www.goodiptv.club/douyu/36337
-#EXTINF:-1 group-title="轮播",豆瓣高评分电影
-https://www.goodiptv.club/douyu/52787
-#EXTINF:-1 group-title="轮播",【动漫】超燃 怀旧 经典
-https://www.goodiptv.club/douyu/1174353
-#EXTINF:-1 group-title="轮播",【倍帧】
-https://www.goodiptv.club/douyu/11137425
-#EXTINF:-1 group-title="轮播",【4K HDR】Dolby Atmos
-https://www.goodiptv.club/douyu/9249162
+
 
 #EXTINF:-1 group-title="4K",CCTV1-4K
 http://[2409:8087:2001:20:2800:0:df6e:eb02]/ott.mobaibox.com/PLTV/4/224/3221227896/index.m3u8
