@@ -3,5 +3,6 @@ HOST-SUFFIX,store.steampowered.com,proxy
 HOST-SUFFIX,ptsplus.tv,proxy
 HOST-SUFFIX,appstorrent.ru,proxy
 #direct
-HOST-KEYWORD,douyinvod,direct
 HOST-KEYWORD,douyinpic,direct
+HOST-KEYWORD,douyinvod,direct
+
