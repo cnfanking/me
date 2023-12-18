@@ -104,6 +104,7 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 乐游,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226580/index.m3u8
 河南文物宝库,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638078a346161/index.m3u8?AuthInfo=toEYVdLfxymUP2l9NZpQI5%2BK6T7j%2FlRm%2BvbM9VO7bA199v9hZiIrZ%2B5X675R6%2FGDjgcqn5UaJ6D814KM9%2FvF7QwvFfeEXMAK7LltfEC%2FKQQ
 爱院线,http://[2409:8087:7000:20:1000::22]:6060/000000001000/6000000006000030630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
+
 地方台,#genre#
 江苏体育休闲,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw4122585160_1534269250/ott.mobaibox.com/PLTV/3/224/3221225935/index.m3u8?icpid=3&RTS=1669268931&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
 江苏新闻,http://[2409:8087:2001:20:2800:0:df6e:eb0e]/wh7f454c46tw4180964299_994803683/ott.mobaibox.com/PLTV/3/224/3221225925/index.m3u8?icpid=3&RTS=1669268990&from=40&popid=40&hms_devid=2111&prioritypopid=40&vqe=3
@@ -128,7 +129,6 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
 海南自贸,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS
 海南文旅,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000322/index.m3u8?IAS
-
 上海ICS外语,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001128/1.m3u8
 上海东方影视,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001016/1.m3u8
 上海都市,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001015/1.m3u8
@@ -138,7 +138,6 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 安徽经济生活,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 安徽综艺体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
 安徽公共,http://skycw.vicp.net:4022/udp/238.1.79.43:4456
-
 
 4K,#genre#
 CCTV4K,http://[2409:8087:2001:20:2800:0:df6e:eb26]:80/ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
