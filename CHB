@@ -135,20 +135,10 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 上海哈哈炫动,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001232/1.m3u8
 上海新闻综合,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001014/1.m3u8
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
-安徽影视,https://tv.maymory.cn:20000/rtp/238.1.79.42:4448
 安徽经济生活,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
-安徽经济生活,https://tv.maymory.cn:20000/rtp/238.1.79.44:4464
 安徽综艺体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
-安徽综艺体育,https://tv.maymory.cn:20000/rtp/238.1.79.41:4440
 安徽公共,http://skycw.vicp.net:4022/udp/238.1.79.43:4456
-安徽公共,https://tv.maymory.cn:20000/rtp/238.1.79.43:4456
-安徽农业科教,https://tv.maymory.cn:20000/rtp/238.1.79.40:4432
-合肥新闻,https://tv.maymory.cn:20000/rtp/238.1.78.111:6760
-芜湖公共,https://tv.maymory.cn:20000/rtp/238.1.78.80:6512
-芜湖生活,https://tv.maymory.cn:20000/rtp/238.1.78.152:7088
-繁昌新闻综合,https://tv.maymory.cn:20000/rtp/238.1.78.190:7392
-南陵新闻,https://tv.maymory.cn:20000/rtp/238.1.78.189:7384
-湾沚新闻,https://tv.maymory.cn:20000/rtp/238.1.78.187:7368
+
 
 4K,#genre#
 CCTV4K,http://[2409:8087:2001:20:2800:0:df6e:eb26]:80/ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
