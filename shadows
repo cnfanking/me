@@ -7,3 +7,4 @@ DOMAIN-SUFFIX,*.openai.com
 # KEYWORD-
 DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,unsplash
