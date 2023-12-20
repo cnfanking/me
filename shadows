@@ -6,3 +6,4 @@ DOMAIN-SUFFIX,*.doubleclick.net
 DOMAIN-SUFFIX,*.openai.com
 # KEYWORD
 DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,githubusercontent
