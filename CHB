@@ -121,12 +121,16 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 南京娱乐,http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3055198838_-954191684/ott.mobaibox.com/PLTV/3/224/3221227722/index.m3u8?icpid=3&RTS=1663229140&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
 南京新闻综合,http://[2409:8087:2001:20:2800:0:df6e:eb14]/wh7f454c46tw3127461495_-1929938189/ott.mobaibox.com/PLTV/3/224/3221227213/index.m3u8?icpid=3&RTS=1663229212&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
 江宁综合,https://jiangning-tv-hls.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
-浙江钱江,http://hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
-浙江经济生活,http://hw-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
-浙江教科影视,http://hw-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
-浙江民生休闲,http://hw-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8
-浙江新闻综合,http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
-浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8
+
+浙江之江纪录,https://hw-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+浙江民生休闲,https://hw-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+浙江新闻https://hw-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+浙江教科影视,https://hw-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+浙江钱江,http://hw-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+浙江经济生活,https://hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+
+
+
 海南自贸,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000320/index.m3u8?IAS
 海南文旅,http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000322/index.m3u8?IAS
 上海ICS外语,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001128/1.m3u8
@@ -134,10 +138,11 @@ CHC高清电影,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch0000009099000
 上海都市,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001015/1.m3u8
 上海哈哈炫动,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001232/1.m3u8
 上海新闻综合,http://[2409:8087:1e04:21::102]:6060/cms001/ch00000090990000001014/1.m3u8
+
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
 安徽经济生活,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 安徽综艺体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
-安徽公共,http://skycw.vicp.net:4022/udp/238.1.79.43:4456
+
 
 4K,#genre#
 CCTV4K,http://[2409:8087:2001:20:2800:0:df6e:eb26]:80/ott.mobaibox.com/PLTV/3/224/3221228472/index.m3u8
