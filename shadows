@@ -8,3 +8,5 @@ DOMAIN-SUFFIX,*.openai.com
 DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,unsplash
+DOMAIN-KEYWORD,cdninstagram
+DOMAIN-KEYWORD,instagram
