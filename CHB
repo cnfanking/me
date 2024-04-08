@@ -61,7 +61,6 @@ CHC家庭影院,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 山西卫视,http://[2409:8087:2001:20:2800:0:df6e:eb06]:80/wh7f454c46tw1574076400_-2066173512/ott.mobaibox.com/PLTV/3/224/3221227559/index.m3u8
 宁夏卫视,https://hls.ningxiahuangheyun.com/live/nxws1M.flv
 宁夏卫视,http://[2409:8087:2001:20:2800:0:df6e:eb06]/wh7f454c46tw2201703491_-1935318667/ott.mobaibox.com/PLTV/3/224/3221227563/index.m3u8?icpid=3&RTS=1669700802&from=40&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
-内蒙古卫视,https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 内蒙古卫视,http://110.16.65.6:8888/newlive/live/hls/51/live.m3u8
 内蒙古卫视,http://[2409:8087:2001:20:2800:0:df6e:eb19]/wh7f454c46tw2228825807_1324573507/ott.mobaibox.com/PLTV/3/224/3221227557/index.m3u8?icpid=3&RTS=1669700829&from=40&popid=40&hms_devid=2113&prioritypopid=40&vqe=
 陕西卫视,http://[2409:8087:2001:20:2800:0:df6e:eb1b]/wh7f454c46tw2360314992_451435426/ott.mobaibox.com/PLTV/3/224/3221227583/index.m3u8?icpid=3&RTS=1669700961&from=40&popid=40&hms_devid=2116&prioritypopid=40&vqe=3
@@ -72,22 +71,13 @@ CHC家庭影院,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 延边卫视,http://[2409:8087:2001:20:2800:0:df6e:eb0e]/wh7f454c46tw3347158460_-210329776/ott.mobaibox.com/PLTV/3/224/3221227590/index.m3u8?icpid=3&RTS=1669701948&from=40&popid=40&hms_devid=2111&prioritypopid=40&vqe=3
 兵团卫视,https://test5.btzx.com.cn/live/2023bt.stream/playlist.m3u8
 兵团卫视,http://[2409:8087:2001:20:2800:0:df6e:eb10]/wh7f454c46tw3243943560_322774048/ott.mobaibox.com/PLTV/3/224/3221227654/index.m3u8?icpid=3&RTS=1669701845&from=40&popid=40&hms_devid=2110&prioritypopid=40&vqe=3
-求索动物,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000010046/index.m3u8?channel-id=wasusyt&Contentid=6000000002000010046&livemode=1&stbId=3
-求索生活,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000003382/index.m3u8?channel-id=wasusyt&Contentid=6000000002000003382&livemode=1&stbId=3
-求索科学,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032344/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032344&livemode=1&stbId=3
-求索纪录,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000002000032052/index.m3u8?channel-id=wasusyt&Contentid=6000000002000032052&livemode=1&stbId=3
 纪实人文,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw1293235676_155310184/ott.mobaibox.com/PLTV/3/224/3221227635/index.m3u8?icpid=3&RTS=1669704189&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
 纪实科教,http://[2409:8087:2001:20:2800:0:df6e:eb0e]/wh7f454c46tw1542052607_1430934483/ott.mobaibox.com/PLTV/3/224/3221227699/index.m3u8?icpid=3&RTS=1669704438&from=40&popid=40&hms_devid=2111&prioritypopid=40&vqe=3
 金鹰卡通,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000057BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTWDyIgRkFJBAHMhA2ayG0T0ZQXwaiVktPr6ILPKXqwOw2VoxnxHvBSRSzCCC3szSwIgrD0rUpRXeaqChwLXCf0
-茶频道,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002305/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 卡酷少儿,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN164297BESTVSMGSMG9/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUbM%2BtJ%2FIKUay0816q4f4FPN9pHjY5eGh1%2F3MQt0stvVIcNMY1ycEUDLSM33BfV5mc1yzDtp74FxRG%2BT%2ByX8dhHQ
 金鹰纪实,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN4766929BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUaWf4k%2B88FALXqp3i7ExZ4HArfvJF2pWpm4RxcBNhZ7j8oKdkoj6hFDX2k81AyJk8L2ZgQL4lTNsyfhwMVyjNWA
-快乐垂钓,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002264/index.m3u8/?virtualDomain=yinhe.live_hls.zte.com
 醇享超清,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw4259108076_496521789/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8?icpid=3&RTS=1658389916&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
 河南文物宝库,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638078a346161/index.m3u8?AuthInfo=toEYVdLfxymUP2l9NZpQI5%2BK6T7j%2FlRm%2BvbM9VO7bA199v9hZiIrZ%2B5X675R6%2FGDjgcqn5UaJ6D814KM9%2FvF7QwvFfeEXMAK7LltfEC%2FKQQ
-iHOT爱院线,http://[2409:8087:7000:20:1000::22]:6060/000000001000/6000000006000030630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
-iHOT爱科幻,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000020630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000020630&livemode=1&stbId=3
-iHOT爱动漫,http://[2409:8087:7001:20:1000::95]:6610/000000001000/6000000006000280630/index.m3u8?channel-id=wasusyt&Contentid=6000000006000280630&livemode=1&stbId=3
 黑莓电影,http://[2409:8087:2001:20:2800:0:df6e:eb04]/ott.mobaibox.com/PLTV/3/224/3221225567/index.m3u8
 黑莓动画,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 
