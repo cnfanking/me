@@ -6,6 +6,7 @@ HOST-KEYWORD,unsplash,proxy
 HOST-SUFFIX,subhd.tv,proxy
 #direct
 HOST-KEYWORD,xiaomiyoupin.com,direct
+HOST-KEYWORD,bldimg.com,direct
 HOST-KEYWORD,douyinpic,direct
 HOST-KEYWORD,douyinvod,direct
 HOST-KEYWORD,video.qq,direct
