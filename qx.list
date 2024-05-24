@@ -34,5 +34,8 @@ HOST-SUFFIX,api.alipan.com,direct
 #拦截
 HOST-SUFFIX,p2-lm.adukwai.com,reject
 HOST-SUFFIX,p1-lm.adukwai.com,reject
-HOST-SUFFIX,p2.a.yximgs.com.com,reject
+HOST-SUFFIX,p1.a.yximgs.com,reject
+HOST-SUFFIX,p2.a.yximgs.com,reject
+HOST-SUFFIX,pgdt.ugdtimg.com,reject
+
 
