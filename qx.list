@@ -1,10 +1,11 @@
 # NAME: 自定义
+#代理
 HOST-SUFFIX,store.steampowered.com,proxy
 HOST-SUFFIX,ptsplus.tv,proxy
 HOST-SUFFIX,appstorrent.ru,proxy
 HOST-KEYWORD,unsplash,proxy
 HOST-SUFFIX,subhd.tv,proxy
-#direct
+#直连
 HOST-KEYWORD,xiaomiyoupin.com,direct
 HOST-KEYWORD,bldimg.com,direct
 HOST-KEYWORD,douyinpic,direct
@@ -30,4 +31,6 @@ HOST-SUFFIX,www.zhipin.com,direct
 HOST-SUFFIX,video-cn.snssdk.com,direct
 HOST-SUFFIX,shopapi.io.mi.com,direct
 HOST-SUFFIX,api.alipan.com,direct
+#拦截
+host-suffix, p2-lm.adukwai.com, reject
 
