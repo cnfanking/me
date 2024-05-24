@@ -32,5 +32,4 @@ HOST-SUFFIX,video-cn.snssdk.com,direct
 HOST-SUFFIX,shopapi.io.mi.com,direct
 HOST-SUFFIX,api.alipan.com,direct
 #拦截
-host-suffix, p2-lm.adukwai.com, reject
-
+host-suffix,p2-lm.adukwai.com,reject
