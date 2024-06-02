@@ -15,7 +15,7 @@ CCTV-9,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/00000001000000060000000000000
 CCTV-10,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/index.m3u8
 CCTV-11,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225597/index.m3u8
 CCTV-12,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/index.m3u8
-CCTV-13,http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/ott.mobaibox.com/PLTV/4/224/3221227387/index.m3u8
+CCTV-13,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226011/index.m3u8
 CCTV-14,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226591/index.m3u8
 CCTV-15,http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/PLTV/1/224/3221230447/1.m3u8
 CCTV-16,http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw456909575_2098882473/ott.mobaibox.com/PLTV/3/224/3221228144/index.m3u8?icpid=3&RTS=1668595251&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
@@ -35,7 +35,7 @@ CHC家庭影院,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 浙江卫视,http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/PLTV/1/224/3221230411/1.m3u8
 辽宁卫视,http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/PLTV/1/224/3221230628/1.m3u8
 湖北卫视,http://[2409:8087:2001:20:2800:0:df6e:eb1b]:80/PLTV/1/224/3221230489/1.m3u8
-湖南卫视,http://[2409:8087:2001:20:2800:0:df6e:eb23]:80/PLTV/1/224/3221230991/1.m3u8
+湖南卫视,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
 安徽卫视,http://[2409:8087:2001:20:2800:0:df6e:eb19]:80/PLTV/1/224/3221229899/1.m3u8
 山东卫视,http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/PLTV/1/224/3221230386/1.m3u8
 黑龙江卫视,http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/PLTV/1/224/3221230922/1.m3u8
@@ -122,10 +122,6 @@ CHC家庭影院,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 安徽影视,http://112.30.194.221:20080/live/d18ff95cb1fb4bbcb56215e189fc12be/hls.m3u8?zanhd
 安徽经济生活,http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8?zanhd
 安徽综艺体育,http://112.30.194.221:20080/live/c41f112b83f644ddb082669501c8ecd3/hls.m3u8?zanhd
-安徽公共,http://iptv_play.yjxfz.com/ShenQiHelper/tv/play/3/UjNtZmErTXQ2QXJ6L1poV2k0azk0NlFuKy9FaW56OXZxdFkveGlkRWhpRWdCVElYR2Frbkd5M2RiWTRGdVNWQkwvTnhoeTMrL1YvV3FPQTFTL3I4VERrT2RjMXEzYktEUU96Yk1oc1JYY289/Bz3feRiR1Wtv4hBGglrQ6w==/txt/2$IPV4_源1
-安徽公共,http://iptv_play.yjxfz.com/ShenQiHelper/tv/play/3/UjNtZmErTXQ2QXJ6L1poV2k0azk0eE96Tkxxd0JxQXIzMFV6RzFFQk5hSk5vYkRudkQyQlEyZzh5TnQva0pyVVBEVnRpR2p5S0F0UU4rbndmWERFeGI2SXlnSVpIU2xP/Bz3feRiR1Wtv4hBGglrQ6w==/txt/2$IPV4_源2
-安徽公共,http://iptv_play.yjxfz.com/ShenQiHelper/tv/play/3/UjNtZmErTXQ2QXJ6L1poV2k0azk0NUhmdVVYelJjdVVwRkwyR1Qra2Y4VS8rM0lOVE0wdkFGT0JHWGo1L3EzelJZa3NDZ21tQzQvYm5lNVN0RU1pQVA4eWhRS2pYaWh3NHl3RXBMVXZDcGF0eit1SkxmVFRCd21vdUZiQlFtNWdTclFGSUhQU0xQdEhYVXUrK3l5NyswZkhoWkhuR1Rlbw==/Bz3feRiR1Wtv4hBGglrQ6w==/txt/2$IPV4_源3
-农业科教,http://111.67.196.96:52020/ahtv.php?id=nykj
 
 4K,#genre#
 CCTV4K,http://[2409:8087:2001:20:2800:0:df6e:eb12]/ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8
