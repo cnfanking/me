@@ -32,6 +32,7 @@ HOST-SUFFIX,www.zhipin.com,direct
 HOST-SUFFIX,video-cn.snssdk.com,direct
 HOST-SUFFIX,shopapi.io.mi.com,direct
 HOST-SUFFIX,api.alipan.com,direct
+HOST-SUFFIX,testflight.apple.com,direct
 #拦截
 HOST-SUFFIX,p2-lm.adukwai.com,reject
 HOST-SUFFIX,p1-lm.adukwai.com,reject
