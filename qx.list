@@ -35,11 +35,6 @@ HOST-SUFFIX,shopapi.io.mi.com,direct
 HOST-SUFFIX,api.alipan.com,direct
 HOST-SUFFIX,testflight.apple.com,direct
 #拦截
-HOST-SUFFIX,p2-lm.adukwai.com,reject
-HOST-SUFFIX,p1-lm.adukwai.com,reject
-HOST-SUFFIX,static.yximgs.com,reject
-HOST-SUFFIX,p1.a.yximgs.com,reject
-HOST-SUFFIX,p2.a.yximgs.com,reject
-HOST-SUFFIX,pgdt.ugdtimg.com,reject
+
 
 
