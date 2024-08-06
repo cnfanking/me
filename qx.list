@@ -4,6 +4,7 @@ HOST-SUFFIX,store.steampowered.com,proxy
 HOST-SUFFIX,ptsplus.tv,proxy
 HOST-SUFFIX,appstorrent.ru,proxy
 HOST-KEYWORD,unsplash,proxy
+HOST-KEYWORD,mypikpak.com,proxy
 HOST-SUFFIX,subhd.tv,proxy
 #直连
 HOST-KEYWORD,api.mijia.tech,direct
