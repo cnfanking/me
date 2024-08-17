@@ -7,6 +7,7 @@ HOST-KEYWORD,unsplash,proxy
 HOST-KEYWORD,mypikpak.com,proxy
 HOST-SUFFIX,subhd.tv,proxy
 #直连
+HOST-KEYWORD,vk.com,direct
 HOST-KEYWORD,api.mijia.tech,direct
 HOST-KEYWORD,xiaomiyoupin.com,direct
 HOST-KEYWORD,bldimg.com,direct
