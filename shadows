@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,bitcomet.com
 DOMAIN-SUFFIX,*.googlevideo.com
 DOMAIN-SUFFIX,*.doubleclick.net
 DOMAIN-SUFFIX,*.openai.com
+DOMAIN-SUFFIX,*.alipan.com
 # KEYWORD-
 DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,github
