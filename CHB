@@ -2,6 +2,7 @@
 CCTV-1,http://183.203.182.117:9616/hls/1/index.m3u8
 CCTV-2,http://183.203.182.117:9616/hls/2/index.m3u8
 湖南卫视,http://183.203.182.117:9616/hls/37/index.m3u8
+浙江卫视,http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
 江宁综合,https://jiangning-tv-hls.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 浙江公共新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 浙江国际,https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
