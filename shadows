@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,*.googlevideo.com
 DOMAIN-SUFFIX,*.doubleclick.net
 DOMAIN-SUFFIX,*.openai.com
 # KEYWORD-
+DOMAIN-KEYWORD,ptsplus.tv
 DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,unsplash
