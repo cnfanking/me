@@ -1,6 +1,7 @@
 #代理
 # NAME
 DOMAIN-SUFFIX,store.steampowered.com
+DOMAIN-SUFFIX,*.steamstatic.com
 DOMAIN-SUFFIX,bitcomet.com
 DOMAIN-SUFFIX,*.google.com
 DOMAIN-SUFFIX,*.googlevideo.com
