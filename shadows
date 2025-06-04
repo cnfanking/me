@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,*.googlevideo.com
 DOMAIN-SUFFIX,*.doubleclick.net
 DOMAIN-SUFFIX,*.openai.com
 DOMAIN-SUFFIX,*.ptsplus.tv
+DOMAIN-SUFFIX,*.youtube.com
 
 # KEYWORD-
 DOMAIN-KEYWORD,githubusercontent
