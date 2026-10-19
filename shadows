@@ -1,5 +1,5 @@
 #代理
-# NAME
+# NAME 完整
 DOMAIN-SUFFIX,store.steampowered.com
 DOMAIN-SUFFIX,*.steamstatic.com
 DOMAIN-SUFFIX,bitcomet.com
@@ -9,8 +9,9 @@ DOMAIN-SUFFIX,*.doubleclick.net
 DOMAIN-SUFFIX,*.openai.com
 DOMAIN-SUFFIX,*.ptsplus.tv
 DOMAIN-SUFFIX,*.youtube.com
+DOMAIN-SUFFIX,api.github.com
 
-# KEYWORD-
+# KEYWORD-关键词
 DOMAIN-KEYWORD,githubusercontent
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,unsplash
