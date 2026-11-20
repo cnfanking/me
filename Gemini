@@ -1,4 +1,4 @@
 # NAME: Gemini
-DOMAIN-KEYWORD,*-pa.googleapis.com
+DOMAIN-WILDCARD,*-pa.googleapis.com
 DOMAIN-SUFFIX,notifications-pa.googleapis.com
 DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
