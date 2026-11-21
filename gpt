@@ -1,9 +1,26 @@
+
 [Rule]
+# OpenAI 核心服务
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
+
+# 登录认证
+DOMAIN-SUFFIX,auth.openai.com
+
+# 静态资源与文件服务
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+
+# 统计与功能配置
 DOMAIN-SUFFIX,oaistatsig.com
-DOMAIN-SUFFIX,openaimerge.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
+
+# 其他相关服务
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,ct.sendgrid.net
+
+# Android 服务
+DOMAIN,android.chat.openai.com
