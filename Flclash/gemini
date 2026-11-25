@@ -4,6 +4,7 @@ function main(config) {
   // ==============================
   const groupName = "Gemini";
   const icon = "https://img.remit.ee/i/QermHQN0gKML";
+  
 
   // ==============================
   // 2. 自动匹配新加坡节点
@@ -17,12 +18,15 @@ function main(config) {
   // ==============================
   const geminiGroup = {
     name: groupName,
-    type: "select",
+    type: "fallback",
     icon: icon,
+    url: "https://www.gstatic.com/generate_204",
+    interval: 300,
+    timeout: 3000,
+    lazy: false,
     proxies: [
       ...new Set(sgNodes),
       "自动选择",
-      "DIRECT"
     ]
   };
 
