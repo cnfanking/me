@@ -1,0 +1,66 @@
+function main(config) {
+  // ==============================
+  // 1. Gemini 策略组名称及图标
+  // ==============================
+  const groupName = "Gemini";
+  const icon = "https://img.remit.ee/i/QermHQN0gKML";
+
+  // ==============================
+  // 2. 自动匹配新加坡节点
+  // ==============================
+  const sgNodes = (config.proxies || [])
+    .filter(p => p.name.includes("新加坡-流媒体04"))
+    .map(p => p.name);
+
+  // ==============================
+  // 3. 创建 Gemini 专属策略组
+  // ==============================
+  const geminiGroup = {
+    name: groupName,
+    type: "select",
+    icon: icon,
+    proxies: [
+      ...new Set(sgNodes),
+      "自动选择",
+      "DIRECT"
+    ]
+  };
+
+  // ==============================
+  // 4. 创建或更新 Gemini 策略组
+  // ==============================
+  config["proxy-groups"] = config["proxy-groups"] || [];
+
+  const index = config["proxy-groups"].findIndex(
+    g => g.name === groupName
+  );
+
+  if (index >= 0) {
+    config["proxy-groups"][index] = {
+      ...config["proxy-groups"][index],
+      ...geminiGroup
+    };
+  } else {
+    config["proxy-groups"].unshift(geminiGroup);
+  }
+
+  // ==============================
+  // 5. Gemini 专属域名分流规则
+  // ==============================
+  const geminiRules = [
+    "DOMAIN-SUFFIX,gemini.google.com,Gemini",
+    "DOMAIN-SUFFIX,ai.google.dev,Gemini",
+    "DOMAIN-SUFFIX,aistudio.google.com,Gemini",
+    "DOMAIN-SUFFIX,generativelanguage.googleapis.com,Gemini"
+  ];
+
+  // ==============================
+  // 6. Gemini 规则置顶
+  // ==============================
+  config.rules = [
+    ...geminiRules,
+    ...(config.rules || [])
+  ];
+
+  return config;
+}
