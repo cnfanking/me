@@ -1,55 +1,81 @@
+
 function main(config) {
-  // ==============================
-  // 1. Gemini 策略组名称及图标
-  // ==============================
-  const groupName = "Gemini";
-  const icon = "https://img.remit.ee/i/QermHQN0gKML";
-  
+  config["proxy-groups"] = config["proxy-groups"] || [];
+  config.rules = config.rules || [];
 
   // ==============================
-  // 2. 自动匹配新加坡节点
+  // 通用策略组创建 / 更新函数
   // ==============================
+  function updateGroup(group) {
+    const index = config["proxy-groups"].findIndex(
+      g => g.name === group.name
+    );
+
+    if (index >= 0) {
+      config["proxy-groups"][index] = {
+        ...config["proxy-groups"][index],
+        ...group
+      };
+    } else {
+      config["proxy-groups"].unshift(group);
+    }
+  }
+
+  // ==============================
+  // 1. Gemini 策略组
+  // ==============================
+  const geminiIcon = "https://img.remit.ee/i/QermHQN0gKML";
+
   const sgNodes = (config.proxies || [])
-    .filter(p => p.name.includes("新加坡-流媒体04"))
+    .filter(p => p.name && p.name.includes("新加坡-流媒体04"))
     .map(p => p.name);
 
-  // ==============================
-  // 3. 创建 Gemini 专属策略组
-  // ==============================
-  const geminiGroup = {
-    name: groupName,
+  updateGroup({
+    name: "Gemini",
     type: "fallback",
-    icon: icon,
+    icon: geminiIcon,
     url: "https://www.gstatic.com/generate_204",
     interval: 300,
     timeout: 3000,
     lazy: false,
     proxies: [
       ...new Set(sgNodes),
+      "自动选择"
+    ]
+  });
+
+  // ==============================
+  // 2. GPT 策略组
+  // ==============================
+  const gptIcon = "";
+
+  const nodeKeywords = [
+    "新加坡-流媒体05"
+  ];
+
+  const gptNodes = (config.proxies || [])
+    .filter(p =>
+      p.name &&
+      nodeKeywords.some(keyword => p.name.includes(keyword))
+    )
+    .map(p => p.name);
+
+  updateGroup({
+    name: "GPT",
+    type: "fallback",
+    icon: gptIcon,
+    url: "https://www.gstatic.com/generate_204",
+    interval: 300,
+    timeout: 3000,
+    lazy: false,
+    proxies: [
+      ...new Set(gptNodes),
       "自动选择",
     ]
-  };
+  });
 
   // ==============================
-  // 4. 创建或更新 Gemini 策略组
-  // ==============================
-  config["proxy-groups"] = config["proxy-groups"] || [];
-
-  const index = config["proxy-groups"].findIndex(
-    g => g.name === groupName
-  );
-
-  if (index >= 0) {
-    config["proxy-groups"][index] = {
-      ...config["proxy-groups"][index],
-      ...geminiGroup
-    };
-  } else {
-    config["proxy-groups"].unshift(geminiGroup);
-  }
-
-  // ==============================
-  // 5. Gemini 专属域名分流规则
+  // 3. Gemini 分流规则
   // ==============================
   const geminiRules = [
     "DOMAIN-SUFFIX,gemini.google.com,Gemini",
@@ -59,11 +85,34 @@ function main(config) {
   ];
 
   // ==============================
-  // 6. Gemini 规则置顶
+  // 4. GPT 分流规则
   // ==============================
-  config.rules = [
+  const gptRules = [
+    "DOMAIN-SUFFIX,chatgpt.com,GPT",
+    "DOMAIN-SUFFIX,openai.com,GPT",
+    "DOMAIN-SUFFIX,oaistatic.com,GPT",
+    "DOMAIN-SUFFIX,oaiusercontent.com,GPT",
+    "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,GPT",
+    "DOMAIN-SUFFIX,auth0.com,GPT",
+    "DOMAIN-SUFFIX,featuregates.org,GPT",
+    "DOMAIN-SUFFIX,statsig.com,GPT",
+    "DOMAIN-SUFFIX,intercom.io,GPT",
+    "DOMAIN-SUFFIX,intercomcdn.com,GPT"
+  ];
+
+  // ==============================
+  // 5. 统一规则置顶并去重
+  // ==============================
+  const customRules = [
     ...geminiRules,
-    ...(config.rules || [])
+    ...gptRules
+  ];
+
+  config.rules = [
+    ...customRules,
+    ...config.rules.filter(
+      rule => !customRules.includes(rule)
+    )
   ];
 
   return config;
