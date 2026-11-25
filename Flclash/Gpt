@@ -1,1 +1,86 @@
+function main(config) {
+  // ==============================
+  // 1. GPT 策略组名称及图标
+  // ==============================
+  const groupName = "GPT";
+  const icon = "";
 
+  // ==============================
+  // 2. 自动匹配 GPT 可用节点
+  // ==============================
+  const nodeKeywords = [
+    "新加坡",
+
+  ];
+
+  const gptNodes = (config.proxies || [])
+    .filter(p =>
+      p.name &&
+      nodeKeywords.some(keyword => p.name.includes(keyword))
+    )
+    .map(p => p.name);
+
+  // ==============================
+  // 3. 创建 GPT 专属策略组
+  // ==============================
+  const gptGroup = {
+    name: groupName,
+    type: "fallback",
+    icon: icon,
+    url: "https://www.gstatic.com/generate_204",
+    interval: 300,
+    timeout: 3000,
+    lazy: false,
+    proxies: [
+      ...new Set(gptNodes),
+      "自动选择",
+      "DIRECT"
+    ]
+  };
+
+  // ==============================
+  // 4. 创建或更新 GPT 策略组
+  // ==============================
+  config["proxy-groups"] = config["proxy-groups"] || [];
+
+  const index = config["proxy-groups"].findIndex(
+    g => g.name === groupName
+  );
+
+  if (index >= 0) {
+    config["proxy-groups"][index] = {
+      ...config["proxy-groups"][index],
+      ...gptGroup
+    };
+  } else {
+    config["proxy-groups"].unshift(gptGroup);
+  }
+
+  // ==============================
+  // 5. GPT 专属域名分流规则
+  // ==============================
+  const gptRules = [
+    "DOMAIN-SUFFIX,chatgpt.com,GPT",
+    "DOMAIN-SUFFIX,openai.com,GPT",
+    "DOMAIN-SUFFIX,oaistatic.com,GPT",
+    "DOMAIN-SUFFIX,oaiusercontent.com,GPT",
+    "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,GPT",
+    "DOMAIN-SUFFIX,auth0.com,GPT",
+    "DOMAIN-SUFFIX,featuregates.org,GPT",
+    "DOMAIN-SUFFIX,statsig.com,GPT",
+    "DOMAIN-SUFFIX,intercom.io,GPT",
+    "DOMAIN-SUFFIX,intercomcdn.com,GPT"
+  ];
+
+  // ==============================
+  // 6. GPT 规则置顶并去重
+  // ==============================
+  config.rules = [
+    ...gptRules,
+    ...(config.rules || []).filter(
+      rule => !gptRules.includes(rule)
+    )
+  ];
+
+  return config;
+}
