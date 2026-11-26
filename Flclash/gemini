@@ -47,7 +47,7 @@ function main(config) {
   // ==============================
   // 2. GPT 策略组
   // ==============================
-  const gptIcon = "";
+  const gptIcon = "https://img.remit.ee/i/THDm2DeX0sjY";
 
   const nodeKeywords = [
     "新加坡-流媒体05"
